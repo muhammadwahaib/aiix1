@@ -42,7 +42,7 @@ const Navbar = () => {
           {/* Desktop CTA */}
           <div className="hidden items-center gap-4 md:flex">
             <Button variant="ghost" size="sm" asChild>
-              <a href="https://aixcellence.co/#login" rel="noopener noreferrer">
+              <a href="https://aixcellence.co/#login" target="_blank" rel="noopener noreferrer">
                 Login
               </a>
             </Button>
@@ -78,7 +78,7 @@ const Navbar = () => {
               ))}
               <div className="flex flex-col gap-2 pt-4">
                 <Button variant="ghost" size="sm" asChild>
-                  <a href="https://aixcellence.co/#login" rel="noopener noreferrer">
+                  <a href="https://aixcellence.co/#login" target="_blank" rel="noopener noreferrer">
                     Login
                   </a>
                 </Button>
